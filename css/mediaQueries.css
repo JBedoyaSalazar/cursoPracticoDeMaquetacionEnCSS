@@ -1,0 +1,43 @@
+@media (max-width: 900px){
+    .blogsMainNew{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .blogsNewImgContainer{
+        grid-row: 2;
+    }
+
+    .blogsNewsInfoContainer{
+        margin-top: 20px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .blogsPostsContainer .postContainer{
+        max-width: 45%;
+    }
+
+    .poryectsMainContainer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+
+    .profileMainContainer .profileContainer{
+        display: block;
+    }
+
+    .contactMainContainer{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px){
+    .blogsPostsContainer .postContainer{
+        max-width: 95%;
+    }
+
+    .proyectMainContainer{
+        grid-template-columns: 1fr;
+    }
+}
